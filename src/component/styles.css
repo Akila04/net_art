@@ -1,0 +1,231 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .responsivelogo{
+        width: 100%;
+    }
+    .responsive1{
+        width: 100%;
+        height: 500px;
+    } 
+    .responsive2{
+       width: 100%;
+        height: 40%;
+    }   
+    .content_heading{
+        font-size: 100%;
+        font-weight: 800;
+        display: flex;
+        float:right;
+    }
+    .content_paragraph{
+        font-size: 90%;
+    }
+    .footer a{
+        width: 100%;
+        float: none;
+        padding: 5px;
+        display: block;
+      }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .responsivelogo{
+        width: 100%;
+    }
+    
+    .responsive1{
+        width:40%;
+        height: 40%;
+    }
+    .responsive2{
+        width:60%;
+        height: 40%;
+    }
+    .responsive_content{
+        width:60%;
+        height: 40%;
+    }
+    .content_heading{
+        font-size: 150%;
+        font-weight: 800;
+        display: flex;
+        float:right;
+    }
+    .content_paragraph{
+        font-size: 140%;
+    }
+    .footer a{
+        width: 100%;
+        padding: 5px;
+        float: none;
+        display: block;
+      }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .responsivelogo{
+        width: 80%;
+    }
+    
+    .responsive1{
+        width: 40%;
+        height:40%;
+
+    }
+    
+    .responsive2{
+        width: 100%;
+        height: 40%;
+    }
+    .responsive_content{
+        width: 60%;
+        height: 40%;
+    }
+    .content_heading{
+        font-size: 170%;
+        font-weight: 800;
+        display: flex;
+        float:right;
+    }
+    .content_paragraph{
+        font-size: 160%;
+    }
+    .footer a{
+        width: 32%;
+        float: none;
+        padding: 20px;
+        display: block;
+      }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .responsivelogo{
+        width: 80%;
+    }
+    
+   .responsive1{
+        width:40%;
+        height: 40%;
+
+    }
+    .responsive2{
+        width: 100%;
+        height: 40%;
+    }
+    .responsive_content{
+        width:60%;
+        height: 50%;
+    }
+    .content_heading{
+        font-size: 220%;
+        font-weight: 800;
+        display: flex;
+        float:right;
+    }
+    .content_paragraph{
+        font-size: 210%;
+        line-height: 1.5;
+    }
+    .footer a{
+        float: none;
+        display: block;
+        padding: 25px;
+        width: 32%;
+      }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .responsivelogo{
+        width: 80%;
+    }
+
+    .content_heading{
+        font-size: 170%;
+        font-weight: 700;
+    }
+    .content_paragraph{
+        font-size: 160%;
+    }
+    
+    .responsive1{
+        width:40%;
+    } 
+    .responsive2{
+        width:60%;
+        height: 50%;
+    } 
+    .responsive_content{
+        width:60%;
+        height: 50%;
+    }
+    .footer a{
+        float: none;
+        padding: 25px;
+        display: block;
+        width: 32%;
+      }
+}
+
+.main-container{
+    background-image: url("background.png");
+    background-size: 100% 100%;
+    font-family: core paint;
+    
+}
+.image2{
+    float: right;
+}
+.image1{
+    float: left;
+}
+.content{
+    float: right;
+    text-align: justify;
+}
+.fullpage_content{
+    margin-top: 10%;
+    width: 100%;
+}
+.responsive_content_two{
+    float: left;
+    width: 100%;
+    text-align: left;
+    margin-top: 2%;
+}
+.responsive_content_three{
+    text-align: center;
+    margin-top: 2%;
+}
+hr{
+    border-top: 2px solid rgb(211, 25, 25);
+}
+.footer{
+    width: 100%;
+    background-color:  rgb(237, 63, 63);
+    overflow: auto;
+    text-align: center;
+}
+
+.footer a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.divider{
+    color: rgb(237, 63, 63);
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer_icon{
+    font-size: 150%;
+    border-radius: 50%;
+    margin: 2%;
+}
+.footer_heading{
+    font-weight: 800;
+}
