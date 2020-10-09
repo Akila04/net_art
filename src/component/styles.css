@@ -204,10 +204,11 @@ hr{
     border-top: 2px solid rgb(211, 25, 25);
 }
 .footer{
-    width: 100%;
+    width: 110%;
     background-color:  rgb(237, 63, 63);
     overflow: auto;
     text-align: center;
+    margin-left:-5%;
 }
 
 .footer a{
