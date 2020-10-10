@@ -54,10 +54,10 @@ class Webpage extends Component{
                     FIRE FIGHTING <strong className="divider">|</strong> 
                     AGRICULTURE &amp; RESIDENTIAL</p>
                 <div className="footer">
-                    <a href="#"><i class="fa fa-phone-square footer_icon" aria-hidden="true"></i>Toll free 1800 200 1234</a>
+                    <a href="tel:1800 200 1234"><i class="fa fa-phone-square footer_icon" aria-hidden="true"></i>Toll free 1800 200 1234</a>
                     
-                    <a href="#"><i class="fa fa-facebook-square footer_icon" aria-hidden="true"></i>www.facebook.com</a>
-                    <a href="#"><i class='fas fa-globe footer_icon'></i>www.crigrpups.com</a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square footer_icon" aria-hidden="true"></i>www.facebook.com</a>
+                    <a href="https://in.crigroups.com/" target="_blank"><i class='fas fa-globe footer_icon'></i>www.crigroups.com</a>
 
                 </div>
             </div>
